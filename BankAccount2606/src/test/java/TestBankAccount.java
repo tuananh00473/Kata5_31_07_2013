@@ -18,6 +18,7 @@ import static org.mockito.Mockito.*;
 public class TestBankAccount
 {
     BankAccountDao mockBankAccountDao = mock(BankAccountDao.class);
+    public static final String accountNumber = "0123456789";
     @Before
     public void setUp(){
         reset(mockBankAccountDao);
@@ -25,7 +26,7 @@ public class TestBankAccount
     }
 
     @Test
-    public void testCreateNewAccount(String accountNumber){
+    public void testCreateNewAccount(){
         BankAccountDTO bankAccountDTO = new BankAccountDTO(accountNumber);
         BankAccount.openAccount(accountNumber);
 
@@ -33,12 +34,17 @@ public class TestBankAccount
         verify(mockBankAccountDao, times(1)).save(argumentCaptor.capture());
 
         assertEquals(argumentCaptor.getValue().getAccountNumber(), bankAccountDTO.getAccountNumber());
-        assertEquals(argumentCaptor.getValue().getBalance(), 0);
+        assertEquals(argumentCaptor.getValue().getBalance(), 0, 0.000001);
     }
 
     @Test
     public void testGetAccount()
     {
+        BankAccountDTO bankAccountDTO = new BankAccountDTO(accountNumber);
 
+        when(mockBankAccountDao.getAccount(accountNumber)).thenReturn(bankAccountDTO);
+        BankAccountDTO selectAccount = BankAccount.getAccount(accountNumber);
+
+        assertEquals(bankAccountDTO, selectAccount);
     }
 }

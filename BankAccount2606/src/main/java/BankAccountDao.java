@@ -8,7 +8,12 @@
 public class BankAccountDao
 {
 
-    public BankAccountDTO save(BankAccountDTO capture)
+    public BankAccountDTO save(BankAccountDTO bankAccountDTO)
+    {
+        return null;
+    }
+
+    public BankAccountDTO getAccount(String accountNumber)
     {
         return null;
     }

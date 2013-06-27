@@ -11,6 +11,14 @@ public class BankAccount
 
     public static BankAccountDTO openAccount(String accountNumber)
     {
-        return null;
+        BankAccountDTO bankAccountDTO = new BankAccountDTO(accountNumber);
+        bankAccountDao.save(bankAccountDTO);
+        return bankAccountDTO;
+    }
+
+    public static BankAccountDTO getAccount(String accountNumber)
+    {
+        BankAccountDTO bankAccountDTO = bankAccountDao.getAccount(accountNumber);
+        return bankAccountDTO;
     }
 }
