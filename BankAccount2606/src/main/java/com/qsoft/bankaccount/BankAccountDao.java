@@ -1,3 +1,7 @@
+package com.qsoft.bankaccount;
+
+import com.qsoft.bankaccount.BankAccountDTO;
+
 /**
  * Created with IntelliJ IDEA.
  * User: anhnt

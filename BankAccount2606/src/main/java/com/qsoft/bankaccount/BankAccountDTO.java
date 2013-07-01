@@ -1,3 +1,5 @@
+package com.qsoft.bankaccount;
+
 import java.util.Date;
 
 /**
