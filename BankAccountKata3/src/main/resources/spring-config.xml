@@ -44,5 +44,6 @@
     <tx:annotation-driven transaction-manager="transactionManager"/>
     <bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager"/>
 
-
+    <bean id="bankAccountDAO" class="com.qsoft.bak.persistence.dao.impl.BankAccountDAO"/>
+    <bean id="transactionDAO" class="com.qsoft.bak.persistence.dao.impl.TransactionDAO"/>
 </beans>

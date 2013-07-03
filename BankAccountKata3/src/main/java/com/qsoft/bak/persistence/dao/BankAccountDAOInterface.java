@@ -1,5 +1,9 @@
 package com.qsoft.bak.persistence.dao;
 
+import com.qsoft.bak.persistence.model.BankAccountDTO;
+
+import java.util.List;
+
 /**
  * Created with IntelliJ IDEA.
  * User: anhnt
@@ -9,6 +13,7 @@ package com.qsoft.bak.persistence.dao;
  */
 public interface BankAccountDAOInterface
 {
-//    public void openNewAccount(String )
-
+    public void openNewAccount(String accountNumber);
+    public BankAccountDTO getAccount(String accountNumber);
+    public List<BankAccountDTO> getListAllAccount();
 }

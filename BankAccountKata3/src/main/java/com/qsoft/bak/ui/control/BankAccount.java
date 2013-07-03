@@ -1,5 +1,7 @@
 package com.qsoft.bak.ui.control;
 
+import com.qsoft.bak.persistence.dao.impl.BankAccountDAO;
+
 /**
  * Created with IntelliJ IDEA.
  * User: anhnt
@@ -9,4 +11,6 @@ package com.qsoft.bak.ui.control;
  */
 public class BankAccount
 {
+    private BankAccountDAO bankAccountDAO;
+
 }
