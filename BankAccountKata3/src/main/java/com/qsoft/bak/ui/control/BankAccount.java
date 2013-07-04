@@ -1,6 +1,8 @@
 package com.qsoft.bak.ui.control;
 
 import com.qsoft.bak.persistence.dao.impl.BankAccountDAO;
+import com.qsoft.bak.persistence.dao.impl.TransactionDAO;
+import com.qsoft.bak.persistence.model.BankAccountDTO;
 
 /**
  * Created with IntelliJ IDEA.
@@ -11,6 +13,18 @@ import com.qsoft.bak.persistence.dao.impl.BankAccountDAO;
  */
 public class BankAccount
 {
-    private BankAccountDAO bankAccountDAO;
+    private static BankAccountDAO bankAccountDAO;
+    private TransactionDAO transactionDAO;
 
+
+    public static void openNewAccount(String accountNumber)
+    {
+
+        bankAccountDAO.openNewAccount(accountNumber);
+    }
+
+    public static BankAccountDTO getAccount(String accountNumber)
+    {
+        return null;
+    }
 }

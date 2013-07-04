@@ -32,4 +32,35 @@ public class BankAccountDAO  implements BankAccountDAOInterface
     {
         return null;  //To change body of implemented methods use File | Settings | File Templates.
     }
+
+    @Override
+    public void save(BankAccountDTO account)
+    {
+
+    }
+
+    public static void deleteAccount(String accountNumber)
+    {
+        //To change body of created methods use File | Settings | File Templates.
+    }
+
+    public static void deleteAccount(BankAccountDTO bankAccountDTO)
+    {
+        //To change body of created methods use File | Settings | File Templates.
+    }
+
+    public static void updateAccount(BankAccountDTO bankAccountDTO)
+    {
+        //To change body of created methods use File | Settings | File Templates.
+    }
+
+    public static void creatAccount(String accountNumber)
+    {
+        //To change body of created methods use File | Settings | File Templates.
+    }
+
+    public static void findAccount(String accountNumber)
+    {
+        //To change body of created methods use File | Settings | File Templates.
+    }
 }

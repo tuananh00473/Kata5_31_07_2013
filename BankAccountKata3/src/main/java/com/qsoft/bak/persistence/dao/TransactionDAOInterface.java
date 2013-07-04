@@ -9,6 +9,6 @@ package com.qsoft.bak.persistence.dao;
  */
 public interface TransactionDAOInterface
 {
-    public void deposite(String accountNumber, long amount, String desciption);
-    public void withdraw(String accountNumber, long amount, String desciption);
+    public void changeBalance(String accountNumber, long amount, String desciption);
+    public void save(String accountNumber, long balance, long amount, String desciption);
 }

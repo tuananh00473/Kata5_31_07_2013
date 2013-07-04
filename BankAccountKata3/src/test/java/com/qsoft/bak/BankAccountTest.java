@@ -3,6 +3,7 @@ package com.qsoft.bak;
 import com.qsoft.bak.persistence.dao.impl.BankAccountDAO;
 import com.qsoft.bak.persistence.model.BankAccountDTO;
 import com.qsoft.bak.ui.control.BankAccount;
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;
@@ -22,14 +23,17 @@ import static junit.framework.Assert.assertNotNull;
 @ContextConfiguration("classpath:spring-config.xml")
 public class BankAccountTest
 {
+    private final static  String accountNumber = "1234567890";
+    @Before
+    public void setUp(){
 
+    }
 
 
     @Test
     public void testOpenNewAccount(){
         BankAccount.openNewAccount(accountNumber);
-        BankAccountDTO account = BankAccountDAO.getAccount(accountNumber);
-
+        BankAccountDTO account = BankAccount.getAccount(accountNumber);
         assertNotNull(account);
     }
 
