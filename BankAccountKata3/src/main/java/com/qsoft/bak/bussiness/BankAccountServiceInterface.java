@@ -11,9 +11,4 @@ import com.qsoft.bak.persistence.model.BankAccountDTO;
  */
 public interface BankAccountServiceInterface
 {
-    public void find(String accountNumber);
-    public void creat(String accountNumber);
-    public void update(BankAccountDTO bankAccountDTO);
-    public void delete(BankAccountDTO bankAccountDTO);
-    public void delete(String accountNumber);
 }
