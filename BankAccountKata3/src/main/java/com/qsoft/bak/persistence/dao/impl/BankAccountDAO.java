@@ -3,6 +3,7 @@ package com.qsoft.bak.persistence.dao.impl;
 import com.qsoft.bak.persistence.dao.BankAccountDAOInterface;
 import com.qsoft.bak.persistence.model.BankAccountDTO;
 
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -16,9 +17,9 @@ public class BankAccountDAO  implements BankAccountDAOInterface
 {
 
     @Override
-    public void openNewAccount(String accountNumber)
+    public BankAccountDTO openNewAccount(String accountNumber)
     {
-        //To change body of implemented methods use File | Settings | File Templates.
+        return new BankAccountDTO(accountNumber, 0, new Date());
     }
 
     @Override

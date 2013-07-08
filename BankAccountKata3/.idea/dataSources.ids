@@ -2340,6 +2340,7 @@
       <column name="amount" sqlType="int8" length="19" precision="0" nullable="true" jdbcType="-5"/>
       <column name="balanceRemaining" sqlType="int8" length="19" precision="0" nullable="true" jdbcType="-5"/>
       <column name="description" sqlType="text" length="2147483647" precision="0" nullable="true" jdbcType="12"/>
+      <column name="timeTransaction" sqlType="date" length="13" precision="0" nullable="true" jdbcType="91"/>
       <primary-key name="transaction_pkey" columns="id"/>
     </table>
     <procedure name="_pg_char_max_length" schema="information_schema" catalog="bankaccountdb" type="2">

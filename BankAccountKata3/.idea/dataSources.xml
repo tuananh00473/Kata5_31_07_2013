@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="1316655283">
+  <component name="DataSourceManagerImpl" format="xml" hash="1096672644">
     <data-source source="LOCAL" name="Data Source" product="PostgreSQL" version="9.2.4" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.0 JDBC4 (build 801)" uuid="7ca53594-4312-4983-bb08-b3e0913d52e0">
       <identifier-quote-string>&quot;</identifier-quote-string>
       <synchronize>true</synchronize>

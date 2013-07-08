@@ -13,7 +13,7 @@ import java.util.List;
  */
 public interface BankAccountDAOInterface
 {
-    public void openNewAccount(String accountNumber);
+    public BankAccountDTO openNewAccount(String accountNumber);
     public BankAccountDTO getAccount(String accountNumber);
     public List<BankAccountDTO> getListAllAccount();
     public void save(BankAccountDTO account);

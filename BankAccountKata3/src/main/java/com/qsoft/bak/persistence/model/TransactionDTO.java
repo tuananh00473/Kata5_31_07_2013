@@ -1,6 +1,7 @@
 package com.qsoft.bak.persistence.model;
 
 import javax.persistence.*;
+import java.util.Date;
 
 /**
  * Created with IntelliJ IDEA.
@@ -31,6 +32,21 @@ public class TransactionDTO
 
     @Column(name = "description")
     private String description;
+
+    @Column(name = "timeTransaction")
+    private Date timeTransaction;
+
+    public TransactionDTO()
+    {
+    }
+
+    public TransactionDTO(String accountNumber, long amount, long balanceRemaining, String description)
+    {
+        this.accountNumber = accountNumber;
+        this.amount = amount;
+        this.balanceRemaining = balanceRemaining;
+        this.description = description;
+    }
 
     public int getId()
     {
@@ -80,5 +96,35 @@ public class TransactionDTO
     public void setdescription(String description)
     {
         this.description = description;
+    }
+
+    public long getBalanceRemaining()
+    {
+        return balanceRemaining;
+    }
+
+    public void setBalanceRemaining(long balanceRemaining)
+    {
+        this.balanceRemaining = balanceRemaining;
+    }
+
+    public String getDescription()
+    {
+        return description;
+    }
+
+    public void setDescription(String description)
+    {
+        this.description = description;
+    }
+
+    public Date getTimeTransaction()
+    {
+        return timeTransaction;
+    }
+
+    public void setTimeTransaction(Date timeTransaction)
+    {
+        this.timeTransaction = timeTransaction;
     }
 }

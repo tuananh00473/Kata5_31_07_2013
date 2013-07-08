@@ -2,7 +2,11 @@ package com.qsoft.bak.persistence.dao.impl;
 
 import com.qsoft.bak.persistence.dao.TransactionDAOInterface;
 import com.qsoft.bak.persistence.model.BankAccountDTO;
+import com.qsoft.bak.persistence.model.TransactionDTO;
 import com.qsoft.bak.ui.control.BankAccount;
+
+import javax.persistence.EntityManager;
+import java.util.Date;
 
 /**
  * Created with IntelliJ IDEA.
@@ -13,15 +17,24 @@ import com.qsoft.bak.ui.control.BankAccount;
  */
 public class TransactionDAO implements TransactionDAOInterface
 {
-    BankAccountDAO bankAccountDAO = new BankAccountDAO();
+    private EntityManager entityManager;
+    private BankAccountDAO bankAccountDAO = new BankAccountDAO();
+    private final int MINIMUM_BALANCE = 50000;
+
     public void deposite(String accountNumber, long amount, String desciption)
     {
-        //To change body of implemented methods use File | Settings | File Templates.
+        BankAccountDTO bankAccountDTO = bankAccountDAO.getAccount(accountNumber);
+        if(bankAccountDTO != null){
+            changeBalance(accountNumber, amount, desciption);
+        }
     }
 
     public void withdraw(String accountNumber, long amount, String desciption)
     {
-        //To change body of implemented methods use File | Settings | File Templates.
+        BankAccountDTO bankAccountDTO = bankAccountDAO.getAccount(accountNumber);
+        if((bankAccountDTO.getBalance() > amount + MINIMUM_BALANCE) && (amount % MINIMUM_BALANCE == 0)){
+            changeBalance(accountNumber, amount, desciption);
+        }
     }
 
     @Override
@@ -36,13 +49,14 @@ public class TransactionDAO implements TransactionDAOInterface
             BankAccountDTO account = bankAccountDAO.getAccount(accountNumber);
             account.setBalance(account.getBalance() + amount);
             bankAccountDAO.save(account);
-            save(accountNumber, account.getBalance(), amount, desciption);
+            TransactionDTO transactionDTO = new TransactionDTO(accountNumber, account.getBalance(), amount, desciption);
+            save(transactionDTO);
         }
     }
 
     @Override
-    public void save(String accountNumber, long balance, long amount, String desciption)
+    public void save(TransactionDTO transactionDTO)
     {
-        //persist.
+        entityManager.persist(transactionDTO);
     }
 }

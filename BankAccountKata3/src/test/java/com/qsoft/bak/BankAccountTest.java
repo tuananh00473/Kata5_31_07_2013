@@ -23,6 +23,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.sql.Connection;
 
+import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertNotNull;
 
 /**
@@ -80,9 +81,20 @@ public class BankAccountTest
 
     @Test
     public void testOpenNewAccount(){
-        BankAccount.openNewAccount(accountNumber);
+        BankAccountDTO accountDTO = BankAccount.openNewAccount(accountNumber);
         BankAccountDTO account = BankAccount.getAccount(accountNumber);
         assertNotNull(account);
+        assertEquals(account, accountDTO);
+    }
+
+    @Test
+    public void testDeposite(){
+
+    }
+
+    @Test
+    public void testWithdraw(){
+
     }
 
 }

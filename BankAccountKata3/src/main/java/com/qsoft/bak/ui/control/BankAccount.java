@@ -4,6 +4,8 @@ import com.qsoft.bak.persistence.dao.impl.BankAccountDAO;
 import com.qsoft.bak.persistence.dao.impl.TransactionDAO;
 import com.qsoft.bak.persistence.model.BankAccountDTO;
 
+import java.util.Date;
+
 /**
  * Created with IntelliJ IDEA.
  * User: anhnt
@@ -17,10 +19,9 @@ public class BankAccount
     private TransactionDAO transactionDAO;
 
 
-    public static void openNewAccount(String accountNumber)
+    public static BankAccountDTO openNewAccount(String accountNumber)
     {
-
-        bankAccountDAO.openNewAccount(accountNumber);
+        return bankAccountDAO.openNewAccount(accountNumber);
     }
 
     public static BankAccountDTO getAccount(String accountNumber)

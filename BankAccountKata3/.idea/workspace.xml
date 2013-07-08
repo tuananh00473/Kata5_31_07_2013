@@ -5,15 +5,15 @@
     <ignored path="BankAccountKata3.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/pom.xml" changelist="dd2794c8-9123-4398-8f9a-e3861c3d91fa" time="1373006395503" ignored="false" />
-    <file path="/BankAccountDTO.java" changelist="dd2794c8-9123-4398-8f9a-e3861c3d91fa" time="1372748099116" ignored="false" />
+    <file path="/BankAccountDTO.java" changelist="dd2794c8-9123-4398-8f9a-e3861c3d91fa" time="1373265314491" ignored="false" />
     <file path="/spring-config.xml" changelist="dd2794c8-9123-4398-8f9a-e3861c3d91fa" time="1372833836036" ignored="false" />
     <file path="$PROJECT_DIR$/../SpringApp/pom.xml" changelist="dd2794c8-9123-4398-8f9a-e3861c3d91fa" time="1372748248951" ignored="false" />
     <file path="/db.properties" changelist="dd2794c8-9123-4398-8f9a-e3861c3d91fa" time="1372748443313" ignored="false" />
     <file path="/fragment.java" changelist="dd2794c8-9123-4398-8f9a-e3861c3d91fa" time="1372751023007" ignored="false" />
     <file path="/MainApp.java" changelist="dd2794c8-9123-4398-8f9a-e3861c3d91fa" time="1372920532061" ignored="false" />
-    <file path="/BankAccountDAOInterface.java" changelist="dd2794c8-9123-4398-8f9a-e3861c3d91fa" time="1372833377587" ignored="false" />
-    <file path="/BankAccountTest.java" changelist="dd2794c8-9123-4398-8f9a-e3861c3d91fa" time="1373008276137" ignored="false" />
-    <file path="/BankAccountDAO.java" changelist="dd2794c8-9123-4398-8f9a-e3861c3d91fa" time="1372921132984" ignored="false" />
+    <file path="/BankAccountDAOInterface.java" changelist="dd2794c8-9123-4398-8f9a-e3861c3d91fa" time="1373265373294" ignored="false" />
+    <file path="/BankAccountTest.java" changelist="dd2794c8-9123-4398-8f9a-e3861c3d91fa" time="1373265595967" ignored="false" />
+    <file path="/BankAccountDAO.java" changelist="dd2794c8-9123-4398-8f9a-e3861c3d91fa" time="1373265427600" ignored="false" />
     <file path="$PROJECT_DIR$/../SpringApp/src/main/java/com/qsoft/dbc/ui/view/InputDealerForm.java" changelist="dd2794c8-9123-4398-8f9a-e3861c3d91fa" time="1372750147465" ignored="false" />
     <file path="$PROJECT_DIR$/../SpringApp/src/main/java/com/qsoft/dbc/MainApp.java" changelist="dd2794c8-9123-4398-8f9a-e3861c3d91fa" time="1372750285436" ignored="false" />
     <file path="$PROJECT_DIR$/../SpringApp/src/main/java/com/qsoft/dbc/ui/model/Dealer.java" changelist="dd2794c8-9123-4398-8f9a-e3861c3d91fa" time="1372750379236" ignored="false" />
@@ -21,13 +21,13 @@
     <file path="/controller.java" changelist="dd2794c8-9123-4398-8f9a-e3861c3d91fa" time="1372750255744" ignored="false" />
     <file path="$PROJECT_DIR$/../SpringApp/src/main/java/com/qsoft/dbc/ui/control/Controller.java" changelist="dd2794c8-9123-4398-8f9a-e3861c3d91fa" time="1372750271025" ignored="false" />
     <file path="/Dealer.java" changelist="dd2794c8-9123-4398-8f9a-e3861c3d91fa" time="1372750378699" ignored="false" />
-    <file path="/Dummy.txt" changelist="dd2794c8-9123-4398-8f9a-e3861c3d91fa" time="1373005923716" ignored="false" />
-    <file path="/TransactionDAOInterface.java" changelist="dd2794c8-9123-4398-8f9a-e3861c3d91fa" time="1372920365868" ignored="false" />
-    <file path="/TransactionDAO.java" changelist="dd2794c8-9123-4398-8f9a-e3861c3d91fa" time="1372920490184" ignored="false" />
-    <file path="/BankAccount.java" changelist="dd2794c8-9123-4398-8f9a-e3861c3d91fa" time="1372920812053" ignored="false" />
-    <file path="/TransactionDTO.java" changelist="dd2794c8-9123-4398-8f9a-e3861c3d91fa" time="1372834799348" ignored="false" />
+    <file path="/Dummy.txt" changelist="dd2794c8-9123-4398-8f9a-e3861c3d91fa" time="1373265090678" ignored="false" />
+    <file path="/TransactionDAOInterface.java" changelist="dd2794c8-9123-4398-8f9a-e3861c3d91fa" time="1373266145514" ignored="false" />
+    <file path="/TransactionDAO.java" changelist="dd2794c8-9123-4398-8f9a-e3861c3d91fa" time="1373266879294" ignored="false" />
+    <file path="/BankAccount.java" changelist="dd2794c8-9123-4398-8f9a-e3861c3d91fa" time="1373265337601" ignored="false" />
+    <file path="/TransactionDTO.java" changelist="dd2794c8-9123-4398-8f9a-e3861c3d91fa" time="1373265985834" ignored="false" />
     <file path="/BankAccountService.java" changelist="dd2794c8-9123-4398-8f9a-e3861c3d91fa" time="1373006097127" ignored="false" />
-    <file path="/BankAccountServiceInterface.java" changelist="dd2794c8-9123-4398-8f9a-e3861c3d91fa" time="1372920957622" ignored="false" />
+    <file path="/BankAccountServiceInterface.java" changelist="dd2794c8-9123-4398-8f9a-e3861c3d91fa" time="1373265032782" ignored="false" />
     <file path="E:/INTELIJ-IDE/Project_Tienhd/BankAccountSpring_28_09_2013/BankAccountSpring_28_09_2013/src/test/java/com/qsoft/bankaccount/unTest/BankAccountDAOUnTest.java" changelist="dd2794c8-9123-4398-8f9a-e3861c3d91fa" time="1373006668205" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,28 +94,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BankAccountDAOInterface.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/bak/persistence/dao/BankAccountDAOInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="36" selection-start="518" selection-end="518" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BankAccount.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/bak/ui/control/BankAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="27" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0">
+            <state line="23" column="38" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/data.xml">
+      <file leaf-file-name="BankAccountDTO.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/bak/persistence/model/BankAccountDTO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0">
+            <state line="42" column="5" selection-start="975" selection-end="975" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -124,29 +115,72 @@
       <file leaf-file-name="BankAccountDAO.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/bak/persistence/dao/impl/BankAccountDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="13" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="docComment;class#BankAccountDAO#0" expanded="false" />
-              </folding>
+            <state line="27" column="19" selection-start="678" selection-end="682" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BankAccountService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/bak/bussiness/BankAccountService.java">
+      <file leaf-file-name="TransactionDAO.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/bak/persistence/dao/impl/TransactionDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="docComment;class#BankAccountService#0" expanded="false" />
-              </folding>
+            <state line="61" column="0" selection-start="2005" selection-end="2005" vertical-scroll-proportion="0.7733333">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BankAccountTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="spring-config.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="89" selection-start="2478" selection-end="2478" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="62" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="persistence.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="47" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransactionDAOInterface.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/bak/persistence/dao/TransactionDAOInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="25" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BankAccountTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/bak/BankAccountTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="0" selection-start="3060" selection-end="3060" vertical-scroll-proportion="0.7409524">
+            <state line="91" column="8" selection-start="3225" selection-end="3225" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransactionDTO.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/bak/persistence/model/TransactionDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="35" selection-start="784" selection-end="784" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -164,22 +198,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/qsoft/bak/persistence/model/BankAccountDTO.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qsoft/bak/persistence/model/TransactionDTO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qsoft/bak/persistence/dao/TransactionDAOInterface.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qsoft/bak/persistence/dao/BankAccountDAOInterface.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qsoft/bak/persistence/dao/impl/TransactionDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qsoft/bak/MainApp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qsoft/bak/persistence/dao/impl/BankAccountDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qsoft/bak/ui/control/BankAccount.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qsoft/bak/bussiness/BankAccountServiceInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qsoft/bak/bussiness/BankAccountService.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/data.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qsoft/bak/bussiness/BankAccountServiceInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qsoft/bak/persistence/model/BankAccountDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qsoft/bak/ui/control/BankAccount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qsoft/bak/persistence/dao/BankAccountDAOInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qsoft/bak/persistence/dao/impl/BankAccountDAO.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/qsoft/bak/BankAccountTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qsoft/bak/persistence/dao/TransactionDAOInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qsoft/bak/persistence/model/TransactionDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qsoft/bak/persistence/dao/impl/TransactionDAO.java" />
       </list>
     </option>
   </component>
@@ -224,6 +258,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -258,10 +293,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -567,7 +598,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -585,12 +615,12 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -615,6 +645,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -643,19 +686,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -816,72 +846,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="62" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="47" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="89" selection-start="2478" selection-end="2478" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/bak/MainApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="8" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/bak/persistence/dao/impl/TransactionDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="18" selection-start="1434" selection-end="1434" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/bak/persistence/dao/TransactionDAOInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="57" selection-start="377" selection-end="377" vertical-scroll-proportion="0.37918216">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/bak/persistence/model/TransactionDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="38" selection-start="779" selection-end="779" vertical-scroll-proportion="1.1252236">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/bak/persistence/model/BankAccountDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="19" selection-start="274" selection-end="274" vertical-scroll-proportion="0.030411448">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/bak/bussiness/BankAccountService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="docComment;class#BankAccountService#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/bak/ui/control/BankAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="27" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -906,15 +873,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/bak/bussiness/BankAccountServiceInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.12639405">
-          <folding>
-            <element signature="docComment;class#BankAccountServiceInterface#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/data.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0">
@@ -922,28 +880,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/bak/persistence/dao/impl/BankAccountDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/bak/bussiness/BankAccountService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0">
+        <state line="7" column="0" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/bak/bussiness/BankAccountServiceInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="docComment;class#BankAccountDAO#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#BankAccountServiceInterface#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/bak/persistence/dao/BankAccountDAOInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="36" selection-start="518" selection-end="518" vertical-scroll-proportion="0.0">
+        <state line="15" column="25" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/bak/BankAccountTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="0" selection-start="3060" selection-end="3060" vertical-scroll-proportion="0.7409524">
+        <state line="91" column="8" selection-start="3225" selection-end="3225" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="89" selection-start="2478" selection-end="2478" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="62" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="47" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/bak/ui/control/BankAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="38" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/bak/persistence/model/BankAccountDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="5" selection-start="975" selection-end="975" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/bak/persistence/dao/TransactionDAOInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="25" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/bak/persistence/dao/impl/BankAccountDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="19" selection-start="678" selection-end="682" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/bak/persistence/model/TransactionDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="35" selection-start="784" selection-end="784" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/bak/persistence/dao/impl/TransactionDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="0" selection-start="2005" selection-end="2005" vertical-scroll-proportion="0.7733333">
+          <folding />
         </state>
       </provider>
     </entry>
