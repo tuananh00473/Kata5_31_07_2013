@@ -1,5 +1,7 @@
 package com.qsoft.bak;
 
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
 /**
  * Created with IntelliJ IDEA.
  * User: anhnt

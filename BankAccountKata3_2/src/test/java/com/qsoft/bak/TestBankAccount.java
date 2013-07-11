@@ -1,5 +1,12 @@
 package com.qsoft.bak;
 
+import com.qsoft.bak.persistence.dao.impl.BankAccountDAOImpl;
+import com.qsoft.bak.persistence.model.BankAccountDTO;
+import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import java.util.Date;
+
 /**
  * Created with IntelliJ IDEA.
  * User: anhnt
@@ -9,4 +16,13 @@ package com.qsoft.bak;
  */
 public class TestBankAccount
 {
+
+    @Autowired
+    BankAccountDAOImpl bankAccountDAO;
+
+    @Test
+    public void testOpenNewAccount()
+    {
+        bankAccountDAO.openNewAccount(new BankAccountDTO("account1", 0, new Date()));
+    }
 }

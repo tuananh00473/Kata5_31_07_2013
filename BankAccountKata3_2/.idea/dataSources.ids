@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Data Source" product="PostgreSQL" version="9.2.4" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.0 JDBC4 (build 801)" uuid="ad15dd83-467f-4443-8a2f-0f13e5c2dd18">
+    <identifier-quote-string>&quot;</identifier-quote-string>
+    <synchronize>true</synchronize>
+    <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+    <jdbc-url>jdbc:postgresql://localhost:5432/dbbak</jdbc-url>
+    <user-name>bak_user</user-name>
+    <user-password>df9bdf98df99df9edf9fdf9c</user-password>
+    <schema-pattern>dbbak.public</schema-pattern>
+    <default-schemas>dbbak.public</default-schemas>
+    <libraries>
+      <library>
+        <url>jar://$MAVEN_REPOSITORY$/postgresql/postgresql/9.1-901.jdbc4/postgresql-9.1-901.jdbc4.jar!/</url>
+      </library>
+    </libraries>
+    <schema name="public" catalog="dbbak"/>
+    <table name="bankaccount" schema="public" catalog="dbbak" type="TABLE">
+      <column name="id" sqlType="bigserial" length="19" precision="0" nullable="false" jdbcType="-5" def="bmV4dHZhbCgnaWRfYmFua2FjY291bnRfc2VxJzo6cmVnY2xhc3Mp" autoIncrement="true"/>
+      <column name="accountNumber" sqlType="text" length="2147483647" precision="0" nullable="true" jdbcType="12"/>
+      <column name="balance" sqlType="int8" length="19" precision="0" nullable="true" jdbcType="-5"/>
+      <column name="openStampTime" sqlType="date" length="13" precision="0" nullable="true" jdbcType="91"/>
+      <primary-key name="bankaccount_pkey" columns="id"/>
+    </table>
+    <table name="id_bankaccount_seq" schema="public" catalog="dbbak" type="SEQUENCE">
+      <column name="sequence_name" sqlType="name" length="2147483647" precision="0" nullable="false" jdbcType="12"/>
+      <column name="last_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="start_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="increment_by" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="max_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="min_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="cache_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="log_cnt" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="is_cycled" sqlType="bool" length="1" precision="0" nullable="false" jdbcType="-7"/>
+      <column name="is_called" sqlType="bool" length="1" precision="0" nullable="false" jdbcType="-7"/>
+    </table>
+    <table name="id_transaction_seq" schema="public" catalog="dbbak" type="SEQUENCE">
+      <column name="sequence_name" sqlType="name" length="2147483647" precision="0" nullable="false" jdbcType="12"/>
+      <column name="last_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="start_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="increment_by" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="max_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="min_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="cache_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="log_cnt" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="is_cycled" sqlType="bool" length="1" precision="0" nullable="false" jdbcType="-7"/>
+      <column name="is_called" sqlType="bool" length="1" precision="0" nullable="false" jdbcType="-7"/>
+    </table>
+    <table name="transaction" schema="public" catalog="dbbak" type="TABLE">
+      <column name="id" sqlType="bigserial" length="19" precision="0" nullable="false" jdbcType="-5" def="bmV4dHZhbCgnaWRfdHJhbnNhY3Rpb25fc2VxJzo6cmVnY2xhc3Mp" autoIncrement="true"/>
+      <column name="accountNumber" sqlType="text" length="2147483647" precision="0" nullable="true" jdbcType="12"/>
+      <column name="amount" sqlType="int8" length="19" precision="0" nullable="true" jdbcType="-5"/>
+      <column name="remainBalance" sqlType="int8" length="19" precision="0" nullable="true" jdbcType="-5"/>
+      <column name="transactionTime" sqlType="date" length="13" precision="0" nullable="true" jdbcType="91"/>
+      <primary-key name="transaction_pkey" columns="id"/>
+    </table>
+  </data-source>
+</component>

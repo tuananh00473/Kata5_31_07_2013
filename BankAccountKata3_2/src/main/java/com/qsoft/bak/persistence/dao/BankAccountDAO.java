@@ -1,5 +1,9 @@
 package com.qsoft.bak.persistence.dao;
 
+import com.qsoft.bak.persistence.model.BankAccountDTO;
+
+import java.util.List;
+
 /**
  * Created with IntelliJ IDEA.
  * User: anhnt
@@ -7,6 +11,7 @@ package com.qsoft.bak.persistence.dao;
  * Time: 2:02 PM
  * To change this template use File | Settings | File Templates.
  */
-public interface BankAccountDAOInterface
+public interface BankAccountDAO extends GenericDAO
 {
+    public List<BankAccountDTO> getAllAccunt();
 }

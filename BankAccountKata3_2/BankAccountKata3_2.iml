@@ -12,7 +12,9 @@
       <configuration>
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="EclipseLink" />
-        <datasource-mapping />
+        <datasource-mapping>
+          <factory-entry name="myPersistenceUnit" value="ad15dd83-467f-4443-8a2f-0f13e5c2dd18" />
+        </datasource-mapping>
         <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/main/resources/META-INF/persistence.xml" />
       </configuration>
     </facet>
