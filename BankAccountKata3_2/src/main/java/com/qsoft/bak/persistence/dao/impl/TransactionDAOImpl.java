@@ -1,8 +1,9 @@
 package com.qsoft.bak.persistence.dao.impl;
 
-import com.qsoft.bak.persistence.dao.BankAccountDAO;
+import com.qsoft.bak.persistence.dao.TransactionDAO;
 import com.qsoft.bak.persistence.model.BankAccountDTO;
 import com.qsoft.bak.persistence.model.GenericDataModel;
+import com.qsoft.bak.persistence.model.TransactionDTO;
 
 import javax.persistence.Query;
 import java.util.List;
@@ -10,24 +11,22 @@ import java.util.List;
 /**
  * Created with IntelliJ IDEA.
  * User: anhnt
- * Date: 7/10/13
- * Time: 2:02 PM
+ * Date: 7/12/13
+ * Time: 1:43 PM
  * To change this template use File | Settings | File Templates.
  */
-public class BankAccountDAOImpl extends  GenericDAOImpl implements BankAccountDAO
+public class TransactionDAOImpl extends GenericDAOImpl implements TransactionDAO
 {
-
-
     @Override
     public GenericDataModel find(long id)
     {
-        return entityManager.find(BankAccountDTO.class,id);
+        return entityManager.find(TransactionDTO.class,id);
     }
 
     @Override
     public List<GenericDataModel> getAll()
     {
-        Query query = entityManager.createQuery("select bad from BankAccountDTO bad");
+        Query query = entityManager.createQuery("select td from TransactionDTO td");
         return query.getResultList();
     }
 }

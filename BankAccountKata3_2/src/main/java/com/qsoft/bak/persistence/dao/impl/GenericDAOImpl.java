@@ -2,6 +2,11 @@ package com.qsoft.bak.persistence.dao.impl;
 
 import com.qsoft.bak.persistence.dao.GenericDAO;
 import com.qsoft.bak.persistence.model.BankAccountDTO;
+import com.qsoft.bak.persistence.model.GenericDataModel;
+import org.springframework.transaction.annotation.Transactional;
+
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
 
 /**
  * Created with IntelliJ IDEA.
@@ -10,29 +15,27 @@ import com.qsoft.bak.persistence.model.BankAccountDTO;
  * Time: 2:13 PM
  * To change this template use File | Settings | File Templates.
  */
+@Transactional
 public abstract class GenericDAOImpl implements GenericDAO
 {
+    @PersistenceContext
+    protected EntityManager entityManager;
+
     @Override
-    public void openNewAccount(BankAccountDTO bankAccountDTO)
+    public void create(GenericDataModel dataModel)
     {
-        //To change body of implemented methods use File | Settings | File Templates.
+        entityManager.persist(dataModel);
     }
 
     @Override
-    public BankAccountDTO findAccount(Class clazz, Object object)
+    public void update(GenericDataModel dataModel)
     {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+        entityManager.merge(dataModel);
     }
 
     @Override
-    public void saveAccount(BankAccountDTO bankAccountDTO)
+    public void delete(Class clazz, GenericDataModel dataModel)
     {
-        //To change body of implemented methods use File | Settings | File Templates.
-    }
-
-    @Override
-    public void deleteAccount(Class clazz, Object object)
-    {
-        //To change body of implemented methods use File | Settings | File Templates.
+        entityManager.remove(dataModel);
     }
 }

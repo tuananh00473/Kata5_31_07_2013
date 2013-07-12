@@ -1,6 +1,9 @@
 package com.qsoft.bak.persistence.dao;
 
 import com.qsoft.bak.persistence.model.BankAccountDTO;
+import com.qsoft.bak.persistence.model.GenericDataModel;
+
+import java.util.List;
 
 /**
  * Created with IntelliJ IDEA.
@@ -11,8 +14,9 @@ import com.qsoft.bak.persistence.model.BankAccountDTO;
  */
 public interface GenericDAO
 {
-    public void openNewAccount(BankAccountDTO bankAccountDTO);
-    public BankAccountDTO findAccount(Class clazz, Object object);
-    public void saveAccount(BankAccountDTO bankAccountDTO);
-    public void deleteAccount(Class clazz, Object object);
+    public GenericDataModel find(long id);
+    public void create(GenericDataModel dataModel);
+    public void update(GenericDataModel dataModel);
+    public void delete(Class clazz, GenericDataModel dataModel);
+    public List<GenericDataModel> getAll();
 }

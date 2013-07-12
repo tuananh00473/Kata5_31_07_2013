@@ -13,5 +13,5 @@ import java.util.List;
  */
 public interface BankAccountDAO extends GenericDAO
 {
-    public List<BankAccountDTO> getAllAccunt();
+
 }

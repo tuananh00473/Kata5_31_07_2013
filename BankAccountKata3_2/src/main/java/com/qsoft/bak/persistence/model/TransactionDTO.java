@@ -14,7 +14,7 @@ import java.util.Date;
 @Entity
 @Table(name = "transaction")
 @SequenceGenerator(name = "id_transaction_seq" , sequenceName = "id_transaction_seq" , allocationSize = 1)
-public class TransactionDTO
+public class TransactionDTO extends GenericDataModel
 {
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "id_transaction_seq")
     @Id
