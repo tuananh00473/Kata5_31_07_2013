@@ -15,6 +15,7 @@ import java.util.List;
 public interface GenericDAO
 {
     public GenericDataModel find(long id);
+    public GenericDataModel find(String accountNumber);
     public void create(GenericDataModel dataModel);
     public void update(GenericDataModel dataModel);
     public void delete(Class clazz, GenericDataModel dataModel);

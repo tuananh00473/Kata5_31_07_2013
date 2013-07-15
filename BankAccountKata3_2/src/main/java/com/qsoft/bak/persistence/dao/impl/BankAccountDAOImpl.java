@@ -25,6 +25,12 @@ public class BankAccountDAOImpl extends  GenericDAOImpl implements BankAccountDA
     }
 
     @Override
+    public GenericDataModel find(String accountNumber)
+    {
+        return entityManager.find(BankAccountDTO.class, accountNumber);
+    }
+
+    @Override
     public List<GenericDataModel> getAll()
     {
         Query query = entityManager.createQuery("select bad from BankAccountDTO bad");

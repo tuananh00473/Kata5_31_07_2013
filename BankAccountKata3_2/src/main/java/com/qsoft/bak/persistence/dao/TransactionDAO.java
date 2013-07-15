@@ -1,5 +1,7 @@
 package com.qsoft.bak.persistence.dao;
 
+import com.qsoft.bak.persistence.model.TransactionDTO;
+
 /**
  * Created with IntelliJ IDEA.
  * User: anhnt
@@ -9,4 +11,5 @@ package com.qsoft.bak.persistence.dao;
  */
 public interface TransactionDAO
 {
+    public TransactionDTO changeBalance(String accountNumber, long amount, String description);
 }

@@ -10,6 +10,8 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import java.util.Date;
 
+import static junit.framework.Assert.assertEquals;
+
 /**
  * Created with IntelliJ IDEA.
  * User: anhnt
@@ -29,7 +31,9 @@ public class TestBankAccount
     @Test
     public void testOpenNewAccount()
     {
-        bankAccountDAO.create(new BankAccountDTO("account1", 0, new Date()));
-
+        BankAccountDTO bankAccountDTO = new BankAccountDTO("account1", 0, new Date());
+        bankAccountDAO.create(bankAccountDTO);
+        BankAccountDTO bankAccountDTO1 = (BankAccountDTO) bankAccountDAO.find("account1");
+        assertEquals(bankAccountDTO, bankAccountDTO1);
     }
 }
