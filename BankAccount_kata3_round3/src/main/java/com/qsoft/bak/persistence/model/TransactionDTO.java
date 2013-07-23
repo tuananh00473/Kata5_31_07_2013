@@ -1,5 +1,7 @@
 package com.qsoft.bak.persistence.model;
 
+import java.util.Date;
+
 /**
  * Created with IntelliJ IDEA.
  * User: anhnt
@@ -9,4 +11,11 @@ package com.qsoft.bak.persistence.model;
  */
 public class TransactionDTO
 {
+    private int id;
+    private String accountNumber;
+    private long balance;
+    private long amount;
+    private Date time;
+
+
 }
